@@ -39,10 +39,10 @@ module.exports = {
         "output": true,
         name: 'Pages'
       },
-      'staff-members': {
+      'staff_members': {
         path: 'content/staff-members',
         _enabled_editors: ['data'],
-        name: 'Staff Members',
+        name: 'Staff Members'
       },
       posts: {
         path: 'content/posts',
