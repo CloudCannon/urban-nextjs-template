@@ -11,7 +11,7 @@ export default function Post({ page, author, nextPost }) {
 export async function getStaticPaths() {
 	const slugs = await getCollectionSlugs('posts');
 	const ignored = {
-		_default: true
+		_defaults: true
 	};
 	return {
 		paths: slugs.filter(({ params }) => !ignored[params.slug]),
