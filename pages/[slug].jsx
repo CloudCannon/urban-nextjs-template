@@ -11,8 +11,9 @@ export async function getStaticPaths() {
 	const slugs = await getCollectionSlugs('pages');
 	const ignored = {
 		about: true,
-		blog: true,
 		contact: true,
+		blog: true,
+		portfolio: true,
 		index: true
 	};
 
