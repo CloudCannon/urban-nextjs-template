@@ -1,0 +1,25 @@
+{
+	"site_name": "Urban",
+	"title": "Urban Template",
+	"description": "",
+	"author": "",
+	"author_email": "",
+	"images": [],
+	"_array_structures": {
+		"images": {
+			"style": "select",
+			"values": [
+				{
+					"label": "Image",
+					"icon": "image",
+					"value": {
+						"image": "",
+						"description": "",
+						"height": 0,
+						"width": 0
+					}
+				}
+			]
+		}
+	}
+}
