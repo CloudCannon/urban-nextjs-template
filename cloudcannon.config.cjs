@@ -3,7 +3,7 @@ module.exports = {
       title: 'The title of your page.'
     },
     _select_data: {
-      categories: ['Sales', 'Tips', 'Marketing', 'HR', 'Growth']
+      categories: ['sales', 'tips', 'marketing', 'growth']
     },
     paths: {
       collections: 'content',
@@ -41,7 +41,7 @@ module.exports = {
       },
       'staff-members': {
         path: 'content/staff-members',
-        "output": true,
+        _enabled_editors: ['data'],
         name: 'Staff Members',
       },
       posts: {
