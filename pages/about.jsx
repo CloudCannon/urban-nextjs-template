@@ -10,7 +10,7 @@ export default function Home({ page, staffMembers }) {
             <p className="editor-link" style={{textAlign:'center'}}><a href="cloudcannon:collections/_staff_members/" className="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
           <ul className="image-grid">
               {staffMembers.slice(0,2).map((staff, i) => (
-				        <li><StaffMember staff={staff} /></li>
+				        <li key={i}><StaffMember staff={staff} /></li>
               ))}
           </ul>
         </div>
