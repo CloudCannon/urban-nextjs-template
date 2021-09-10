@@ -46,15 +46,15 @@ module.exports = {
         name: 'Pages',
         _enabled_editors: ['data']
       },
-      'staff-member': {
+      'staff-members': {
         // Reads the contents of each file in this directory
-        path: 'content/staff-member',
+        path: 'content/staff-members',
 
         // How to parse the files in this collection
         parser: 'front-matter',
 
         // CloudCannon collection-level configuration
-        name: 'StaffMembers',
+        name: 'Staff Members',
         _enabled_editors: ['data','content']
       },
       posts: {
