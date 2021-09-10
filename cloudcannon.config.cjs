@@ -2,7 +2,9 @@ module.exports = {
     _comments: {
       title: 'The title of your page.'
     },
-  
+    _select_data: {
+      categories: ['Sales', 'Tips', 'Marketing', 'HR', 'Growth']
+    },
     paths: {
       collections: 'content',
       data: 'data',
