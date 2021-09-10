@@ -7,4 +7,3 @@ _component_type: string
 email:
 ---
 
-something about that person
