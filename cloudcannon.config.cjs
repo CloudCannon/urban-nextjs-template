@@ -43,8 +43,7 @@ module.exports = {
         parser: 'front-matter',
         
         // CloudCannon collection-level configuration
-        name: 'Pages',
-        _enabled_editors: ['data']
+        name: 'Pages'
       },
       'staff-members': {
         // Reads the contents of each file in this directory

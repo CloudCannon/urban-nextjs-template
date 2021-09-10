@@ -2,7 +2,7 @@ import PageLayout from '../components/layouts/page';
 import { getCollectionItem, getCollection } from '../lib/collections';
 import StaffMember from '../components/staff';
 
-export default function Home({ page, clients }) {
+export default function Portfolio({ page, clients }) {
   return (
 		<PageLayout page={page}>
       <section className="diagonal patterned">

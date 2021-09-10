@@ -17,7 +17,7 @@ export default function DefaultLayout({ children, page }) {
 
 				<link rel="apple-touch-icon" href="/apple-touch-icon.png"/ >
 				<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192" />
-				<link rel="icon" type="image/png" href="/favicon.png" />
+				<link rel="icon" type="image/png" href="/images/favicon.png" />
 			</Head>
 
 			<NextSeo

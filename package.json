@@ -10,6 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.12.2",
+    "disqus-react": "^1.1.2",
     "gray-matter": "^4.0.3",
     "markdown-it": "^12.2.0",
     "next": "11.1.2",

@@ -1,5 +1,6 @@
 ---
 title: Definition of sales
+date: 2016-08-06
 categories:
   - sales
 author_staff_member: anna
