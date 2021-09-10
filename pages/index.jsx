@@ -20,9 +20,6 @@ export default function Home({ page, clients }) {
           </div>
           <div>
             <ul className="image-grid">
-              {/* {% for client in site.clients limit: 4 %}
-                <li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}"></a></li>
-              {% endfor %} */}
               {clients.slice(0, 4).map((client, i) => (
                 <li  key={i}>
                   <a href={ 'clients/' + client.slug}>
@@ -54,7 +51,6 @@ export default function Home({ page, clients }) {
 export async function getStaticProps({ params }) {
 	const page = await getCollectionItem('pages', 'index');
 	const clients = await getCollection('clients');
-console.log(clients);
 	return {
 		props: {
 			page: JSON.parse(JSON.stringify(page)),

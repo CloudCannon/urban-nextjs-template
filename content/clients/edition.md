@@ -1,12 +1,12 @@
 ---
 name: Edition Template
 subtitle: Product documentation template for Jekyll
-external_url: 'https://github.com/CloudCannon/edition-jekyll-template'
+external_url: https://github.com/CloudCannon/edition-jekyll-template
 image_path: /images/clients/edition.png
-book: first
 ---
 
-Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/). Start documenting your product, application, service or website with this configurable theme.
+Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
+Start documenting your product, application, service or website with this configurable theme.
 
 Edition was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
 
@@ -33,7 +33,7 @@ Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Ac
 
 Edition was built with [Jekyll](https://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-Install the dependencies with [Bundler](https://bundler.io/)\:
+Install the dependencies with [Bundler](https://bundler.io/):
 
 ~~~bash
 $ bundle install

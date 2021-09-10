@@ -4,10 +4,62 @@ module.exports = {
       title: 'The title of your page.'
     },
   
+    'data-config': {
+      company: {
+        // Reads the contents of this file
+        path: 'data/company.json'
+      },
+      footer: {
+        // Reads the contents of this file
+        path: 'data/footer.json'
+      },
+      seo: {
+        // Reads the contents of this file
+        path: 'data/seo.json'
+      },
+      site: {
+        // Reads the contents of this file
+        path: 'data/site.json'
+      }
+    },
+  
     'collections-config': {
+      clients: {
+        // Reads the contents of each file in this directory
+        path: 'content/clients',
+
+        // How to parse the files in this collection
+        parser: 'front-matter',
+        
+        // CloudCannon collection-level configuration
+        name: 'Clients',
+        _enabled_editors: ['data','content']
+      },
+      pages: {
+        // Reads the contents of each file in this directory
+        path: 'content/pages',
+
+        // How to parse the files in this collection
+        parser: 'front-matter',
+        
+        // CloudCannon collection-level configuration
+        name: 'Pages',
+        _enabled_editors: ['data']
+      },
+      'staff-member': {
+        // Reads the contents of each file in this directory
+        path: 'content/staff-member',
+
+        // How to parse the files in this collection
+        parser: 'front-matter',
+
+        // CloudCannon collection-level configuration
+        name: 'StaffMembers',
+        _enabled_editors: ['data','content']
+      },
       posts: {
         // Reads the contents of each file in this directory
-        path: '_posts',
+        path: 'content/posts',
   
         // How to parse the files in this collection
         parser: 'front-matter',

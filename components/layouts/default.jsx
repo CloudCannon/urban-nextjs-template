@@ -38,7 +38,7 @@ export default function DefaultLayout({ children, page }) {
 			/>
             <header>
                 <div className="container">
-                    <h1 className="company-name"><a href={ data.site.url + "/" }><img src="/images/logo.svg" alt="Urban" width="150"/></a></h1>
+                    <h1 className="company-name"><a href={ "/" }><img src="/images/logo.svg" alt="Urban" width="150"/></a></h1>
                     <Navigation  page={page}/>
                 </div>
             </header>

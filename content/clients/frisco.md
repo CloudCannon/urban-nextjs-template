@@ -1,13 +1,12 @@
 ---
 name: Frisco Template
 subtitle: App marketing template for Jekyll
-external_url: 'https://github.com/CloudCannon/frisco-jekyll-template'
+external_url: https://github.com/CloudCannon/frisco-jekyll-template
 image_path: /images/clients/frisco.jpg
-csv:
-  - '8729163481236'
 ---
 
-App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/). Increase the web presence of a App with this configurable theme.
+App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/).
+Increase the web presence of a App with this configurable theme.
 
 Frisco was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
 
@@ -38,7 +37,7 @@ Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Ac
 
 Frisco was built with [Jekyll](https://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-Install the dependencies with [Bundler](https://bundler.io/)\:
+Install the dependencies with [Bundler](https://bundler.io/):
 
 ~~~bash
 $ bundle install
