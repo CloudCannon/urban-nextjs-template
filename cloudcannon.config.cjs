@@ -31,7 +31,7 @@ module.exports = {
         "output": true,
         name: 'Clients',
       },
-      webpages: {
+      pages: {
         path: 'content/pages',
         url: '/[slug]',
         "output": true,
