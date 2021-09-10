@@ -27,6 +27,7 @@ module.exports = {
       clients: {
         // Reads the contents of each file in this directory
         path: 'content/clients',
+        "output": true,
 
         // How to parse the files in this collection
         parser: 'front-matter',
@@ -48,6 +49,7 @@ module.exports = {
       'staff-members': {
         // Reads the contents of each file in this directory
         path: 'content/staff-members',
+        "output": true,
 
         // How to parse the files in this collection
         parser: 'front-matter',
@@ -59,6 +61,7 @@ module.exports = {
       posts: {
         // Reads the contents of each file in this directory
         path: 'content/posts',
+        "output": true,
   
         // How to parse the files in this collection
         parser: 'front-matter',
