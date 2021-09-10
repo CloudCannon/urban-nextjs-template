@@ -42,11 +42,7 @@ module.exports = {
       'staff_members': {
         path: 'content/staff-members',
         _enabled_editors: ['data'],
-        name: 'Staff Members',
-        slug: (filePath, frontMatter, filters) => {
-          const slug = path.basename(filePath, path.extname(filePath));
-          return slug;
-        }
+        name: 'Staff Members'
       },
       posts: {
         path: 'content/posts',
