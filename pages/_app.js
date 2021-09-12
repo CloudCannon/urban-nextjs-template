@@ -1,7 +1,8 @@
 import '../styles/main.scss';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+import {CloudCannonConnect} from '@cloudcannon/react-connector'
 
-export default MyApp
+export default function App({ Component, pageProps }) {
+	const AppComponent = CloudCannonConnect(Component);
+	return <AppComponent {...pageProps}/>
+}

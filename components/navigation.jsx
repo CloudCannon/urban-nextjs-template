@@ -1,31 +1,20 @@
 
 import Link from 'next/link';
+import data from '../lib/data';
+
 
 export default function Navigation({ children, page }) {
 	return (
         <nav>
             <a className="nav-toggle" id="open-nav" href="#">&#9776;</a>
             <ul>
-                <li>
-                    <Link href="/portfolio">
-                        <a className={page.slug === 'portfolio' ? 'active' : ''}>Portfolio</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/blog">
-                        <a className={page.slug === 'blog' ? 'active' : ''}>Blog</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/about">
-                        <a className={page.slug === 'about' ? 'active' : ''}>About</a>
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/contact">
-                        <a className={page.slug === 'contact' ? 'active' : ''}>Contact</a>
-                    </Link>
-                </li>
+                {data.navigation.links.map((link, i) => (
+                    <li key={i}>
+                        <Link href={ link.link }>
+                            <a className={page.slug.toLowerCase() === link.name.toLowerCase()  ? 'active' : ''}>{link.name}</a>
+                        </Link>
+                    </li>
+                ))}
             </ul>
         </nav>
 	);
