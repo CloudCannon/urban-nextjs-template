@@ -1,4 +1,3 @@
-import next from 'next';
 import PostLayout from '../../components/layouts/post';
 import { getCollectionSlugs, getCollectionItem, getNextCollectionItem } from '../../lib/collections';
 
@@ -23,7 +22,7 @@ export async function getStaticProps({ params }) {
 	const page = await getCollectionItem('posts', params.slug);
 	const author = await getCollectionItem('staff-members', page.author_staff_member);
 	const nextPost = await getNextCollectionItem('posts', params.slug, { excerpt: true, sortKey: 'date' });
-	// console.log(nextPost)
+	
 	return {
 		props: {
 			page: JSON.parse(JSON.stringify(page)),

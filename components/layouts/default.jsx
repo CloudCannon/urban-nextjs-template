@@ -15,9 +15,9 @@ export default function DefaultLayout({ children, page }) {
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-				<link rel="apple-touch-icon" href="/apple-touch-icon.png"/ >
-				<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192" />
-				<link rel="icon" type="image/png" href="/images/favicon.png" />
+				<link rel="apple-touch-icon" href={`${data.site.baseurl}/apple-touch-icon.png`} />
+				<link rel="icon" type="image/png" href={`${data.site.baseurl}/touch-icon.png`} sizes="192x192" />
+				<link rel="icon" type="image/png" href={`${data.site.baseurl}/images/favicon.png`} />
 			</Head>
 
 			<NextSeo
@@ -38,7 +38,7 @@ export default function DefaultLayout({ children, page }) {
 			/>
             <header>
                 <div className="container">
-                    <h1 className="company-name"><a href={ "/" }><img src="/images/logo.svg" alt="Urban" width="150"/></a></h1>
+                    <h1 className="company-name"><a href={`${data.site.baseurl}/`}><img src={`${data.site.baseurl}/images/logo.svg`} alt="Urban" width="150"/></a></h1>
                     <Navigation  page={page}/>
                 </div>
             </header>
@@ -71,7 +71,7 @@ export default function DefaultLayout({ children, page }) {
 							</li>
 							<li>{data.company.description}</li>
 							<li>
-								<Link href="/feed.xml"><a><Icon icon="RSS" /> Subscribe with RSS</a></Link>
+								<Link href={`${data.site.baseurl}/feed.xml`}><a><Icon icon="RSS" /> Subscribe with RSS</a></Link>
 							</li>
 						</ul>
 					</div>

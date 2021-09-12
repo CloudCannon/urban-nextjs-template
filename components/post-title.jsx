@@ -1,3 +1,5 @@
+import data from '../lib/data';
+
 export default function PostTitle({ post }) {
 	const date = post.date ? new Date(post.date).toLocaleDateString('en-US', {
 		year: 'numeric',
@@ -9,7 +11,7 @@ export default function PostTitle({ post }) {
 		<p className="post-details">
 			{post.categories.slice(0, 4).map((category, i) => (
 				<span className="blog-filter" key={i}>
-					<a href={"/category/" + category +"/"}>{ category }</a>
+					<a href={`${data.site.baseurl}/category/${category}/`}>{ category }</a>
 				</span>
               ))}
 			<span className="post-date">{ date }</span>

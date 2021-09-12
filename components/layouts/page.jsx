@@ -7,9 +7,12 @@ export default function PageLayout({ children, page }) {
 
             <section className="hero diagonal">
                 <div className="container">
-                    {/* TODO: Condition the fields*/}
+                { (page.heading || page.title) &&
                     <h2>{ title }</h2>
+                }
+                { page.subtitle &&
                     <p className="subtext">{ page.subtitle }</p>
+                }
                 </div>
             </section>
             {children}

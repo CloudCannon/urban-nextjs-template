@@ -1,6 +1,6 @@
 import PageLayout from '../components/layouts/page';
 import { getCollectionItem, getCollection } from '../lib/collections';
-import StaffMember from '../components/staff';
+import data from '../lib/data';
 
 export default function Portfolio({ page, clients }) {
   return (
@@ -11,7 +11,7 @@ export default function Portfolio({ page, clients }) {
           <ul className="image-grid">
                 {clients.map((client, i) => (
                   <li key={i}>
-                    <a href="{{ site.baseurl }}{{ client.url }}">
+                    <a href={`${data.site.baseurl}/clients/${client.slug}`}>
                       <img src={client.image_path } alt={ client.name }/>
                       <div className="details">
                         <div className="name">{ client.name }</div>

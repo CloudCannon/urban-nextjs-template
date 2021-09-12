@@ -1,4 +1,5 @@
 import DefaultLayout from '../components/layouts/default';
+import data from '../lib/data';
 import { getCollectionItem, getCollection } from '../lib/collections';
 
 export default function Home({ page, clients }) {
@@ -8,7 +9,7 @@ export default function Home({ page, clients }) {
         <div className="container">
           <h2 className="editable">We build websites</h2>
           <p className="subtext editable">This is the <strong>Urban</strong> template from <a href="https://cloudcannon.com/">CloudCannon</a>. Urban is a strong foundation for the web presence of your agency.</p>
-          <p><a className="button alt" href="{{ site.baseurl }}/contact/">Contact Us</a></p>
+          <p><a className="button alt" href={`${data.site.baseurl}/contact/`}>Contact Us</a></p>
         </div>
         </section>
         <section className="diagonal patterned">
@@ -16,13 +17,13 @@ export default function Home({ page, clients }) {
           <div>
             <h3 className="editable">Some of our work</h3>
             <p className="editable">We take pride in our previous work and our happy customers. We cater to any sector to boost business and increase exposure.</p>
-            <p className="editable"><a href="{{ site.baseurl }}/portfolio/">View Full Portfolio &rarr;</a></p>
+            <p className="editable"><a href={`${data.site.baseurl}/portfolio/`}>View Full Portfolio &rarr;</a></p>
           </div>
           <div>
             <ul className="image-grid">
               {clients.slice(0, 4).map((client, i) => (
                 <li  key={i}>
-                  <a href={ 'clients/' + client.slug}>
+                  <a href={`${data.site.baseurl}clients/${client.slug}`}>
                     <img src={client.image_path}/>
                   </a>
                 </li>
@@ -35,8 +36,8 @@ export default function Home({ page, clients }) {
         <div className="container halves">
           <div>
             <ul className="image-list">
-              <li><img src="/images/cloudcannon-logo-blue.svg" width="250" style={{marginBottom: 40 + 'px'}}/></li>
-              <li><img src="/images/jekyll-logo-black-red-transparent.png" width="300"/></li>
+              <li><img src={`${data.site.baseurl}/images/cloudcannon-logo-blue.svg`} width="250" style={{marginBottom: 40 + 'px'}}/></li>
+              <li><img src={`${data.site.baseurl}/images/jekyll-logo-black-red-transparent.png`} width="300"/></li>
             </ul>
           </div>
           <div>
