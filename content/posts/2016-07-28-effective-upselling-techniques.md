@@ -4,7 +4,7 @@ date: 2016-07-28
 categories:
   - sales
   - tips
-author_staff_member: james
+author-staff-member: james
 show_comments: true
 ---
 

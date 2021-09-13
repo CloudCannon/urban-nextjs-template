@@ -30,7 +30,7 @@ export async function getStaticProps({ params }) {
 	const page = await getCollectionItem('pages', 'blog');
 	const posts = await getCollection('posts', { excerpt: true, sortKey: 'date' });
 	const postsWithAuthor = await Promise.all(posts.map(async (post) => {
-		const author = await getCollectionItem('staff-members', post.author_staff_member);
+		const author = await getCollectionItem('staff-members', post.author-staff-member);
 		return { ...post, author }
 	}));
 

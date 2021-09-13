@@ -20,9 +20,9 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
 	const page = await getCollectionItem('posts', params.slug);
-	const author = await getCollectionItem('staff-members', page.author_staff_member);
+	const author = await getCollectionItem('staff-members', page.author-staff-member);
 	const nextPost = await getNextCollectionItem('posts', params.slug, { excerpt: true, sortKey: 'date' });
-	
+
 	return {
 		props: {
 			page: JSON.parse(JSON.stringify(page)),
