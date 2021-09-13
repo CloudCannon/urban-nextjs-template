@@ -1,12 +1,12 @@
 {
 	"links": [
 		{
-			"name": "Blog",
-			"link": "/blog/"
-		},
-		{
 			"name": "Portfolio",
 			"link": "/portfolio/"
+		},
+		{
+			"name": "Blog",
+			"link": "/blog/"
 		},
 		{
 			"name": "About",
