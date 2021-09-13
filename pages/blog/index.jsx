@@ -9,7 +9,7 @@ export default function Blog({ page, posts }) {
 		<PageLayout page={page}>
       <section className="diagonal">
         <div className="text-container">
-          <p className="editor-link"><a href="cloudcannon:collections/_posts" className="btn"><strong>&#9998;</strong> Add Post</a></p>
+          <p className="editor-link"><a href="cloudcannon:collections/content/posts" className="btn"><strong>&#9998;</strong> Add Post</a></p>
           <ul className="blog-posts">
             {posts.map((post, i) => (
               <li className="blog-post" key="i">

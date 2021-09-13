@@ -5,6 +5,7 @@ import data from '../lib/data';
 
 export default function Navigation({ children, page }) {
 	return (
+        <>
         <nav>
             <a className="nav-toggle" id="open-nav" href="#">&#9776;</a>
             <ul>
@@ -17,5 +18,7 @@ export default function Navigation({ children, page }) {
                 ))}
             </ul>
         </nav>
+        <p className="editor-link"><a href="cloudcannon:collections/data/data/navigation.json" className="btn"><strong>&#9998;</strong> Edit Navigation</a></p>
+    </>
 	);
 }

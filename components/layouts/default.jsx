@@ -46,7 +46,8 @@ export default function DefaultLayout({ children, page }) {
             
 			<footer className="diagonal">
 				<div className="container">
-					<div className="footer-columns" data-cms-editor-link="cloudcannon:collections/content/data/footer.json">
+					<p className="editor-link"><a href="cloudcannon:collections/data/data/footer.json" className="btn"><strong>&#9998;</strong> Edit Footer</a></p>
+					<div className="footer-columns">
 						{data.footer.map((column) => (
 							<ul className="footer-links" key={column.title}>
 								<li>

@@ -7,7 +7,7 @@ export default function Portfolio({ page, clients }) {
 		<PageLayout page={page}>
       <section className="diagonal patterned">
         <div className="container">
-            <p className="editor-link" style={{textAlign:'center'}}><a href="cloudcannon:collections/_clients/" className="btn"><strong>&#9998;</strong> Manage Clients</a></p>
+            <p className="editor-link" style={{textAlign:'center'}}><a href="cloudcannon:collections/content/clients/" className="btn"><strong>&#9998;</strong> Manage Clients</a></p>
           <ul className="image-grid">
                 {clients.map((client, i) => (
                   <li key={i}>

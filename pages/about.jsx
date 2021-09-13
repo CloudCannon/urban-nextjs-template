@@ -7,7 +7,7 @@ export default function About({ page, staffMembers }) {
 		<PageLayout page={page}>
       <section className="diagonal patterned">
         <div className="container">
-            <p className="editor-link" style={{textAlign:'center'}}><a href="cloudcannon:collections/_staff_members/" className="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
+            <p className="editor-link" style={{textAlign:'center'}}><a href="cloudcannon:collections/content/staff-members/" className="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
           <ul className="image-grid">
               {staffMembers.slice(0,2).map((staff, i) => (
 				        <li key={i}><StaffMember staff={staff} /></li>
