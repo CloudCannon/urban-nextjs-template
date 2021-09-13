@@ -24,7 +24,7 @@ export default function Home({ page, clients }) {
               {clients.slice(0, 4).map((client, i) => (
                 <li  key={i}>
                   <a href={`${data.site.baseurl}clients/${client.slug}`}>
-                    <img src={client.image_path}/>
+                    <img src={client.image_path} alt={client.name}/>
                   </a>
                 </li>
               ))}
@@ -36,8 +36,8 @@ export default function Home({ page, clients }) {
         <div className="container halves">
           <div>
             <ul className="image-list">
-              <li><img src={`${data.site.baseurl}/images/cloudcannon-logo-blue.svg`} width="250" style={{marginBottom: 40 + 'px'}}/></li>
-              <li><img src={`${data.site.baseurl}/images/jekyll-logo-black-red-transparent.png`} width="300"/></li>
+              <li><img src={`${data.site.baseurl}/images/cloudcannon-logo-blue.svg`} width="250" style={{marginBottom: 40 + 'px'}} alt="CloudCannon Logo"/></li>
+              <li><img src={`${data.site.baseurl}/images/jekyll-logo-black-red-transparent.png`} width="300" alt="Jekyll Logo"/></li>
             </ul>
           </div>
           <div>

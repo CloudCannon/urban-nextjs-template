@@ -23,7 +23,7 @@ export default function ClientLayout({ page, portfolio }) {
 			<section className="diagonal">
 				<div className="container">
 					<p>
-						<img src={ page.image_path } className="screenshot" /></p>
+						<img src={ page.image_path } className="screenshot" alt={page.title}/></p>
 					<div>
 			 			<div className="post-content" dangerouslySetInnerHTML={{ __html: page.contentHtml }} />
 					</div>
