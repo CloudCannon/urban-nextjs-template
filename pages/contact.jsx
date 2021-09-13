@@ -26,7 +26,7 @@ export default function Contact({ page, site, company }) {
       <section className="diagonal">
         <div className="container">
           <form action={`${data.site.baseurl}/contact-success/`} method="post" className="contact-form">
-            <input type="hidden" name="_to" value="support@example.com" />
+            <input type="hidden" name="_to" value={company.contact_email_address} />
             <input type="text" name="_gotcha" style={{display: 'none'}} />
 
             <div className="halves">
