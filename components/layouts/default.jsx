@@ -6,7 +6,7 @@ import Icon from '../../components/icon';
 import Navigation from '../../components/navigation';
 
 export default function DefaultLayout({ children, page }) {
-	const title = page.title ? `${page.title} | ${data.seo.title}` : data.seo.title;
+	const title = page.title ? `${page.title} | ${data.seo.site_title}` : data.seo.site_title;
 	const description = page.description || data.seo.description;
 
 	return (
@@ -67,7 +67,7 @@ export default function DefaultLayout({ children, page }) {
 
 						<ul className="footer-links">
 							<li>
-								<h2>{data.company.title}</h2>
+								<h2>{data.company.site_title}</h2>
 							</li>
 							<li>{data.company.description}</li>
 							<li>
@@ -79,7 +79,7 @@ export default function DefaultLayout({ children, page }) {
 
 				<div className="legal-line">
 					<p className="container">
-						&copy; {new Date().getFullYear()} {data.company.title} &bull; Template by <Link href="https://cloudcannon.com/">CloudCannon</Link>
+						&copy; {new Date().getFullYear()} {data.company.site_title} &bull; Template by <Link href="https://cloudcannon.com/">CloudCannon</Link>
 					</p>
 				</div>
 			</footer>
