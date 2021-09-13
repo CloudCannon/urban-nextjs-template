@@ -18,7 +18,7 @@ export default function Navigation({ children, page }) {
                 ))}
             </ul>
         </nav>
-        <p className="editor-link"><a href="cloudcannon:collections/data/data/navigation.json" className="btn"><strong>&#9998;</strong> Edit Navigation</a></p>
+        <p className="editor-link" style={{textAlign: 'right'}}><a href="cloudcannon:data/data/navigation.json" className="btn"><strong>&#9998;</strong> Edit Navigation</a></p>
     </>
 	);
 }
