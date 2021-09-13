@@ -1,20 +1,20 @@
 {
-  "links": [
-    {
-      "name": "Portfolio",
-      "link": "/portfolio/"
-    },
-    {
-      "name": "Blog",
-      "link": "/blog/"
-    },
-    {
-      "name": "About",
-      "link": "/about/"
-    },
-    {
-      "name": "Contact",
-      "link": "/contact/"
-    }
-  ]
+	"links": [
+		{
+			"name": "Blog",
+			"link": "/blog/"
+		},
+		{
+			"name": "Portfolio",
+			"link": "/portfolio/"
+		},
+		{
+			"name": "About",
+			"link": "/about/"
+		},
+		{
+			"name": "Contact",
+			"link": "/contact/"
+		}
+	]
 }
