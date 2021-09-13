@@ -15,10 +15,11 @@ module.exports = {
       data: { path: 'data' },
       clients: {
         path: 'content/clients',
+        url: 'clients/[slug]',
         "output": true,
         name: 'Clients',
       },
-      pages: {
+      webpages: {
         path: 'content/pages',
         url: '/[slug]',
         "output": true,
