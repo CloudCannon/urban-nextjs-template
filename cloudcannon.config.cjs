@@ -15,7 +15,7 @@ module.exports = {
       data: { path: 'data' },
       clients: {
         path: 'content/clients',
-        url: 'clients/[slug]',
+        url: '/clients/[slug]',
         "output": true,
         name: 'Clients',
       },
