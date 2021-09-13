@@ -25,7 +25,7 @@ module.exports = {
         "output": true,
         name: 'Pages'
       },
-      'staff_members': {
+      'staff-members': {
         path: 'content/staff-members',
         _enabled_editors: ['data'],
         name: 'Staff Members'
