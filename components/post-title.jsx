@@ -1,4 +1,5 @@
 import data from '../lib/data';
+import {capitalise} from '../lib/string-helper';
 
 export default function PostTitle({ post }) {
 	const date = post.date ? new Date(post.date).toLocaleDateString('en-US', {
@@ -11,7 +12,7 @@ export default function PostTitle({ post }) {
 		<p className="post-details">
 			{post.categories.slice(0, 4).map((category, i) => (
 				<span className="blog-filter" key={i}>
-					<a href={`${data.site.baseurl}/category/${category}/`}>{ category }</a>
+					<a>{ capitalise(category) }</a>
 				</span>
               ))}
 			<span className="post-date">{ date }</span>
