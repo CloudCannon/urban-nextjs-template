@@ -11,6 +11,7 @@ Find more templates, themes and tutorials at [CloudCannon Academy](https://learn
 
 ## Features
 
+* FrontMatter live editing
 * Contact form
 * Pre-built pages
 * Pre-styled components
