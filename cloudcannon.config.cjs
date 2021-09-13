@@ -11,23 +11,8 @@ module.exports = {
       static: 'public',
       uploads: 'public/uploads'
     },
-
-    'data-config': {
-      company: {
-        path: 'data/company.json'
-      },
-      footer: {
-        path: 'data/footer.json'
-      },
-      seo: {
-        path: 'data/seo.json'
-      },
-      site: {
-        path: 'data/site.json'
-      }
-    },
-  
     'collections-config': {
+      data: { path: 'data' },
       clients: {
         path: 'content/clients',
         "output": true,
