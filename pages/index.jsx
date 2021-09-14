@@ -8,7 +8,10 @@ export default function Home({ page, clients }) {
       <section className="hero diagonal">
         <div className="container">
           <h2>{page.title}</h2>
-          <p className="subtext">{page.subtext_html}</p>
+          
+          <p className="subtext" dangerouslySetInnerHTML={{
+								__html: `${page.subtext_html}`,
+							}} />
           <p><a className="button alt" href={`${data.site.baseurl}/contact`}>Contact Us</a></p>
         </div>
         </section>
@@ -16,8 +19,12 @@ export default function Home({ page, clients }) {
         <div className="container halves">
           <div>
             <h3>{page.portfolio_heading}</h3>
-            <p>{page.portfolio_description_html}</p>
-            <p><a href={`${data.site.baseurl}/portfolio`}>{page.portfolio_call_to_action}</a></p>
+            <p dangerouslySetInnerHTML={{
+                  __html: `${page.portfolio_description_html}`,
+                }} />
+            <p><a href={`${data.site.baseurl}/portfolio`} dangerouslySetInnerHTML={{
+                  __html: `${page.portfolio_call_to_action_html}`,
+                }}/></p>
           </div>
           <div>
             <ul className="image-grid">

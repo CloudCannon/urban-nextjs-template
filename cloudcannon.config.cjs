@@ -17,13 +17,15 @@ module.exports = {
         path: 'content/clients',
         url: '/clients/[slug]',
         "output": true,
-        name: 'Clients',
+        name: 'Clients'
       },
       webpages: {
         path: 'content/pages',
         url: '/[slug]',
         "output": true,
-        name: 'Pages'
+        name: 'Pages',
+        _icon: 'wysiwyg',
+        _enabled_editors: ['visual','content']
       },
       'staff-members': {
         path: 'content/staff-members',
