@@ -22,9 +22,7 @@ export default function Home({ page, clients }) {
             <p dangerouslySetInnerHTML={{
                   __html: `${page.portfolio_description_html}`,
                 }} />
-            <p><a href={`${data.site.baseurl}/portfolio`} dangerouslySetInnerHTML={{
-                  __html: `${page.portfolio_call_to_action_html}`,
-                }}/></p>
+            <p><a href={`${data.site.baseurl}/portfolio`}>{page.portfolio_call_to_action} &rarr;</a></p>
           </div>
           <div>
             <ul className="image-grid">
