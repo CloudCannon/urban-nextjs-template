@@ -25,7 +25,7 @@ export default function DefaultLayout({ children, page }) {
 							dangerouslySetInnerHTML={{
 								__html: `
 									window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-									ga('create', '', 'auto');
+									ga('create', '${data.site.google_analytics_key}', 'auto');
 									ga('send', 'pageview');
 								`,
 							}}
@@ -54,7 +54,7 @@ export default function DefaultLayout({ children, page }) {
 			/>
             <header>
                 <div className="container">
-                    <h1 className="company-name"><a href={`${data.site.baseurl}/`}><img src={`${data.site.baseurl}/images/logo.svg`} alt="Urban" width="150"/></a></h1>
+                    <h1 className="company-name"><a href={`${data.site.baseurl}`}><img src={`${data.site.baseurl}/images/logo.svg`} alt="Urban" width="150"/></a></h1>
                     <Navigation  page={page}/>
                 </div>
             </header>

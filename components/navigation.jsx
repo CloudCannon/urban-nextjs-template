@@ -12,7 +12,7 @@ export default function Navigation({ children, page }) {
                 {data.navigation.links.map((link, i) => (
                     <li key={i}>
                         <Link href={ `${data.site.baseurl}${link.link}` }>
-                            <a className={page.slug.toLowerCase() === link.name.toLowerCase()  ? 'active' : ''}>{link.name}</a>
+                            <a className={page?.slug?.toLowerCase() === link.name.toLowerCase()  ? 'active' : ''}>{link.name}</a>
                         </Link>
                     </li>
                 ))}
