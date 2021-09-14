@@ -9,7 +9,7 @@ export default function Home({ page, clients }) {
         <div className="container">
           <h2 className="editable">We build websites</h2>
           <p className="subtext editable">This is the <strong>Urban</strong> template from <a href="https://cloudcannon.com/">CloudCannon</a>. Urban is a strong foundation for the web presence of your agency.</p>
-          <p><a className="button alt" href={`${data.site.baseurl}/contact/`}>Contact Us</a></p>
+          <p><a className="button alt" href={`${data.site.baseurl}/contact`}>Contact Us</a></p>
         </div>
         </section>
         <section className="diagonal patterned">
@@ -17,7 +17,7 @@ export default function Home({ page, clients }) {
           <div>
             <h3 className="editable">Some of our work</h3>
             <p className="editable">We take pride in our previous work and our happy customers. We cater to any sector to boost business and increase exposure.</p>
-            <p className="editable"><a href={`${data.site.baseurl}/portfolio/`}>View Full Portfolio &rarr;</a></p>
+            <p className="editable"><a href={`${data.site.baseurl}/portfolio`}>View Full Portfolio &rarr;</a></p>
           </div>
           <div>
             <ul className="image-grid">

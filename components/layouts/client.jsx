@@ -11,7 +11,7 @@ export default function ClientLayout({ page, portfolio }) {
 				<div className="container">
 					{ portfolio.heading && 
 						<h2>
-							<Link href={`${data.site.baseurl}/portfolio/`}>{ portfolio.heading }</Link><span> / {page.name}</span>
+							<Link href={`${data.site.baseurl}/portfolio`}>{ portfolio.heading }</Link><span> / {page.name}</span>
 						</h2>
 					}
 					{ page.subtitle &&
