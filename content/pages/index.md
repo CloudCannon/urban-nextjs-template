@@ -8,6 +8,6 @@ portfolio_heading: Some of our work
 portfolio_description_html: >-
   We take pride in our previous work and our happy customers. We cater to any
   sector to boost business and increase exposure.
-portfolio_call_to_action_html: View Full Portfolio &rarr;
+portfolio_call_to_action_html: <p>View Full Portfolio &rarr;</p>
 ---
 
