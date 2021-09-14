@@ -18,6 +18,22 @@ export default function DefaultLayout({ children, page }) {
 				<link rel="apple-touch-icon" href={`${data.site.baseurl}/apple-touch-icon.png`} />
 				<link rel="icon" type="image/png" href={`${data.site.baseurl}/touch-icon.png`} sizes="192x192" />
 				<link rel="icon" type="image/png" href={`${data.site.baseurl}/images/favicon.png`} />
+			
+				{ data.site.google_analytics_key &&
+					<>
+						<script
+							dangerouslySetInnerHTML={{
+								__html: `
+									window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+									ga('create', '', 'auto');
+									ga('send', 'pageview');
+								`,
+							}}
+						/>
+						<script async src={'https://www.google-analytics.com/analytics.js'}/>
+					</>
+				}
+
 			</Head>
 
 			<NextSeo
