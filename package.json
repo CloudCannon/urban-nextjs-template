@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@cloudcannon/react-connector": "^1.0.3",
+    "@cloudcannon/react-connector": "^1.0.5",
     "@cloudcannon/reader": "^0.0.5",
     "@googlemaps/js-api-loader": "^1.12.2",
     "disqus-react": "^1.1.2",
