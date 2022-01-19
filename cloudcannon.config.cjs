@@ -46,7 +46,6 @@ module.exports = {
           },
           {
             key: 'position',
-            order: 'asc',
             label: 'Job Title'
           }
         ],
