@@ -11,7 +11,7 @@ export default function PageLayout({ children, page }) {
                     <h2>{ title }</h2>
                 }
                 { page.subtitle &&
-                    <p className="subtext">{ page.subtitle }</p>
+                    <p className="subtext" data-cms-bind="#subtitle">{ page.subtitle }</p>
                 }
                 </div>
             </section>
