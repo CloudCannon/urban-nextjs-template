@@ -13,7 +13,7 @@ module.exports = {
       static: 'public',
       uploads: 'public/uploads'
     },
-    'collections-config': {
+    collections_config: {
       data: { path: 'data' },
       clients: {
         path: 'content/clients',
@@ -32,7 +32,23 @@ module.exports = {
       'staff-members': {
         path: 'content/staff-members',
         _enabled_editors: ['data'],
-        name: 'Staff Members'
+        name: 'Staff Members',
+        sort: {
+          key: 'name'
+        },
+        sort_options: [
+          {
+            key: 'name'
+          },
+          {
+            key: 'name',
+            order: 'desc'
+          },
+          {
+            key: 'position',
+            label: 'Job Title'
+          }
+        ],
       },
       posts: {
         path: 'content/posts',
@@ -40,5 +56,28 @@ module.exports = {
         url: '/blog/[slug]',
         name: 'Blog'
       }
-    }
+    },
+    collection_groups: [
+      {
+        heading: 'Pages',
+        collections: [
+          'webpages'
+        ]
+      },
+      {
+        heading: 'Blogging',
+        collections: [
+          'posts',
+          'drafts',
+          'staff-members'
+        ]
+      },
+      {
+        heading: 'Content',
+        collections: [
+          'clients',
+          'data'
+        ]
+      }
+    ]
   };
