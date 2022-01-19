@@ -13,7 +13,7 @@ module.exports = {
       static: 'public',
       uploads: 'public/uploads'
     },
-    collections_config: {
+    'collections-config': {
       data: { path: 'data' },
       clients: {
         path: 'content/clients',
