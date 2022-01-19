@@ -1,6 +1,8 @@
 module.exports = {
-    _comments: {
-      title: 'The title of your page.'
+    _inputs:{
+      title: {
+        comment: 'The title of your page.'
+      }
     },
     _select_data: {
       categories: ['sales', 'tips', 'marketing', 'growth']
