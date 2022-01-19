@@ -3,7 +3,7 @@
 Web Agency themed business template for NextJS.
 Increase the web presence of your agency with this configurable theme.
 
-![Urban template screenshot](images/_screenshot.png)
+![Urban template screenshot](public/images/_screenshot.png)
 
 Urban was made by [CloudCannon](https://cloudcannon.com/), a Jamstack platform for the whole team.
 
@@ -33,7 +33,7 @@ Find more templates, themes and tutorials at [CloudCannon Academy](https://learn
 
 ## Develop
 
-Urban was built with [NextJS](https://nextjs.org/) version 11.1.2, but should support newer versions as well.
+Urban was built with [NextJS](https://nextjs.org/) version 12.0.8, but should support newer versions as well.
 
 ~~~bash
 $ npm install
