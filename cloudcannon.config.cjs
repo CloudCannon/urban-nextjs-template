@@ -26,7 +26,7 @@ module.exports = {
         url: '/[slug]',
         "output": true,
         name: 'Pages',
-        _icon: 'wysiwyg',
+        icon: 'wysiwyg',
         _enabled_editors: ['visual','content']
       },
       'staff-members': {
