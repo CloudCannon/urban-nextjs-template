@@ -48,8 +48,8 @@ module.exports = {
           icon: 'person',
           name: 'Staff',
           path: 'schemas/staff-members/default.md',
-          subtext_key: 'name',
-          text_key: 'description',
+          text_key: 'name',
+          subtext_key: 'description',
           remove_extra_inputs: false,
           reorder_inputs: false,
           hide_extra_inputs: true
@@ -58,11 +58,11 @@ module.exports = {
           name: 'New Author',
           icon: 'nature_people',
           path: 'schemas/staff-members/authors.md',
-          subtext_key: 'name',
-          text_key: 'bio',
+          text_key: 'name',
+          subtext_key: 'bio',
           remove_extra_inputs: false,
           remove_empty_inputs: true,
-          image_size: 'cover'
+          image_size: ''
         }
       }
     },
