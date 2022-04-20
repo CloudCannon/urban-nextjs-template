@@ -24,8 +24,8 @@ module.exports = {
       "output": true,
       name: 'Clients',
       schemas: {
-        template: {
-          path: "schemas/staff-members/template.md"
+        default: {
+          path: "schemas/staff-members/default.md"
         }
       }
     },
