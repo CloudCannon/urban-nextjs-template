@@ -22,7 +22,12 @@ module.exports = {
       path: 'content/clients',
       url: '/clients/[slug]',
       "output": true,
-      name: 'Clients'
+      name: 'Clients',
+      schemas: {
+        template: {
+          path: "schemas/staff-members/template.md"
+        }
+      }
     },
     webpages: {
       path: 'content/pages',
