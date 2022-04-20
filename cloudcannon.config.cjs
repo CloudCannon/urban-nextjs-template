@@ -44,10 +44,6 @@ module.exports = {
       schemas: {
         default: {
           path: "schemas/staff-members/default.md"
-        },
-        authors: {
-          name: 'New Author',
-          path: "schemas/staff-members/authors.md"
         }
       }
     },
