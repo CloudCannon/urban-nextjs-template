@@ -45,12 +45,19 @@ module.exports = {
         default: {
           icon: 'person',
           name: 'Staff',
-          path: 'schemas/staff-members/default.md'
+          path: 'schemas/staff-members/default.md',
+          subtext_key: 'name',
+          text_key: 'description',
+          remove_extra_inputs: false,
+          reorder_inputs: false
         },
         authors: {
-          name: 'New Author ',
+          name: 'New Author',
           icon: 'nature_people',
-          path: 'schemas/staff-members/authors.md'
+          path: 'schemas/staff-members/authors.md',
+          subtext_key: 'name',
+          text_key: 'bio',
+          remove_extra_inputs: false
         }
       }
     },
