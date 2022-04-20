@@ -25,7 +25,7 @@ module.exports = {
       name: 'Clients',
       schemas: {
         default: {
-          path: "schemas/staff-members/default.md"
+          path: "schemas/clients/default.md"
         }
       }
     },
@@ -44,6 +44,10 @@ module.exports = {
       schemas: {
         default: {
           path: "schemas/staff-members/default.md"
+        },
+        authors: {
+          name: 'New Author',
+          path: "schemas/staff-members/authors.md"
         }
       }
     },
@@ -51,7 +55,13 @@ module.exports = {
       path: 'content/posts',
       "output": true,
       url: '/blog/[slug]',
-      name: 'Blog'
+      name: 'Blog',
+      schemas: {
+        default: {
+          name: "New Post",
+          path: "schemas/posts/default.md"
+        }
+      }
     }
   }
 };
