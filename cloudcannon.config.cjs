@@ -2,6 +2,9 @@ module.exports = {
   _inputs: {
     title: {
       comment: 'The title of your page.'
+    },
+    author: {
+      hidden: true
     }
   },
   _select_data: {
@@ -32,7 +35,16 @@ module.exports = {
     'staff-members': {
       path: 'content/staff-members',
       _enabled_editors: ['data'],
-      name: 'Staff Members'
+      name: 'Staff Members',
+      schemas: {
+        default: {
+          path: "schemas/staff-members/default.md"
+        },
+        authors: {
+          name: 'New Author',
+          path: "schemas/staff-members/authors.md"
+        }
+      }
     },
     posts: {
       path: 'content/posts',
