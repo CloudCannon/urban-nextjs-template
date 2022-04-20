@@ -1,11 +1,11 @@
 ---
+_schema: authors
 name: New Author
 email:
 position: Senior
 twitter: CloudCannon
-start_date: 2022-04-20T12:00:00+12:00
+start_date: 2022-04-20T00:00:00Z
 image_path: https://unsplash.it/600/503?image=1026&a=.png
+bio: Updating the bio
 author: true
-description: Description field for new author
-_schema: authors
 ---
