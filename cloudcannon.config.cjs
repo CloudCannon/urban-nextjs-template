@@ -42,6 +42,7 @@ module.exports = {
       path: 'content/staff-members',
       _enabled_editors: ['data'],
       name: 'Staff Members',
+      image_size: 'cover',
       schemas: {
         default: {
           icon: 'person',
@@ -61,7 +62,7 @@ module.exports = {
           text_key: 'bio',
           remove_extra_inputs: false,
           remove_empty_inputs: true,
-          image_size: 'cover'
+          image_size: 'contain'
         }
       }
     },
