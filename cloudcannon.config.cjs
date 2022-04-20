@@ -21,18 +21,18 @@ module.exports = {
     clients: {
       path: 'content/clients',
       url: '/clients/[slug]',
-      "output": true,
+      'output': true,
       name: 'Clients',
       schemas: {
         default: {
-          path: "schemas/clients/default.md"
+          path: 'schemas/clients/default.md'
         }
       }
     },
     webpages: {
       path: 'content/pages',
       url: '/[slug]',
-      "output": true,
+      'output': true,
       name: 'Pages',
       _icon: 'wysiwyg',
       _enabled_editors: ['visual', 'content']
@@ -43,23 +43,27 @@ module.exports = {
       name: 'Staff Members',
       schemas: {
         default: {
-          path: "schemas/staff-members/default.md"
+          icon: 'person',
+          name: 'Staff',
+          path: 'schemas/staff-members/default.md'
         },
         authors: {
           name: 'New Author',
-          path: "schemas/staff-members/authors.md"
+          icon: 'nature_people',
+          path: 'schemas/staff-members/authors.md'
         }
       }
     },
     posts: {
       path: 'content/posts',
-      "output": true,
+      'output': true,
       url: '/blog/[slug]',
       name: 'Blog',
       schemas: {
         default: {
-          name: "New Post",
-          path: "schemas/posts/default.md"
+          name: 'New Post',
+          icon: 'article',
+          path: 'schemas/posts/default.md'
         }
       }
     }
