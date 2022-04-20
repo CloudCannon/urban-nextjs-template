@@ -43,12 +43,12 @@ module.exports = {
       _enabled_editors: ['data'],
       name: 'Staff Members',
       image_size: 'contain',
+      text_key: 'position',
       schemas: {
         default: {
           icon: 'person',
           name: 'Staff',
           path: 'schemas/staff-members/default.md',
-          text_key: 'name',
           subtext_key: 'description',
           remove_extra_inputs: false,
           reorder_inputs: false,
