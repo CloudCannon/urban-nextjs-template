@@ -25,7 +25,8 @@ module.exports = {
       name: 'Clients',
       schemas: {
         default: {
-          path: 'schemas/clients/default.md'
+          path: 'schemas/clients/default.md',
+          image_key: 'image_path'
         }
       }
     },
@@ -49,7 +50,8 @@ module.exports = {
           subtext_key: 'name',
           text_key: 'description',
           remove_extra_inputs: false,
-          reorder_inputs: false
+          reorder_inputs: false,
+          hide_extra_inputs: true
         },
         authors: {
           name: 'New Author',
@@ -57,7 +59,9 @@ module.exports = {
           path: 'schemas/staff-members/authors.md',
           subtext_key: 'name',
           text_key: 'bio',
-          remove_extra_inputs: false
+          remove_extra_inputs: false,
+          remove_empty_inputs: true,
+          image_size: 'cover'
         }
       }
     },
