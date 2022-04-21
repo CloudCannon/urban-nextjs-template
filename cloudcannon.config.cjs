@@ -89,11 +89,6 @@ module.exports = {
           name: 'New Post',
           icon: 'article',
           path: 'schemas/posts/default.md'
-        },
-        second_schema: {
-          name: 'New Post with second schema',
-          icon: 'article',
-          path: 'schemas/posts/default.md'
         }
       }
     }
