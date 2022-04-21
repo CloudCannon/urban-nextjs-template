@@ -26,7 +26,9 @@ module.exports = {
       image_key: 'image_path',
       schemas: {
         default: {
-          path: 'schemas/clients/default.md'
+          path: 'schemas/clients/default.md',
+          remove_extra_inputs: false,
+          remove_empty_inputs: true
         },
         internal: {
           path: 'schemas/clients/internal.md'
