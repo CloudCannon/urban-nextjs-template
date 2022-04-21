@@ -44,12 +44,13 @@ module.exports = {
       name: 'Staff Members',
       image_size: 'contain',
       text_key: 'position',
+      subtext_key: 'description',
+      schema_key: 'my_schema_definition',
       schemas: {
         default: {
           icon: 'person',
           name: 'Staff',
           path: 'schemas/staff-members/default.md',
-          subtext_key: 'description',
           remove_extra_inputs: false,
           reorder_inputs: false,
           hide_extra_inputs: true

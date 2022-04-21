@@ -7,5 +7,5 @@ start_date: 2022-04-20T12:00:00+12:00
 author: true
 email:
 name: Junior
-_schema: authors
+my_schema_definition: authors
 ---

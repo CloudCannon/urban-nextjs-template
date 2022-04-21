@@ -1,5 +1,5 @@
 ---
-_schema: authors
+my_schema_definition: authors
 name: New Author
 email:
 position: Senior
