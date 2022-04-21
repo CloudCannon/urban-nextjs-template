@@ -74,6 +74,10 @@ module.exports = {
       name: 'Blog',
       add_options: [
         {
+          name: 'Add Post',
+          editor: 'content'
+        },
+        {
           name: "Add Author",
           editor: "content",
           collection: "staff-members",
