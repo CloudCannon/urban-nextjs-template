@@ -1,13 +1,11 @@
 ---
-_schema: default
 image_path: https://unsplash.it/600/503?image=1026&a=.png
 bio: Junior only have a bio
-position: Junior Engineer
+position: Junior
 twitter: CloudCannon
-start_date: 2022-04-20T00:00:00Z
+start_date: 2022-04-20T12:00:00+12:00
 author: true
 email:
-name: 'Junior '
+name: Junior
 my_schema_definition: authors
-description:
 ---
