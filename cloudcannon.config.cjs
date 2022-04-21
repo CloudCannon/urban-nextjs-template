@@ -51,6 +51,8 @@ module.exports = {
       text_key: 'position',
       subtext_key: 'description',
       schema_key: 'my_schema_definition',
+      disable_add_folder: true,
+      disable_file_actions: true,
       schemas: {
         default: {
           icon: 'person',
@@ -93,7 +95,6 @@ module.exports = {
       'output': true,
       url: '/blog/[slug]',
       name: 'Blog',
-      _enabled_editors: ['visual'],
       add_options: [
         {
           name: 'Add Post'
