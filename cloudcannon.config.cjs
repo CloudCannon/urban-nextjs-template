@@ -23,10 +23,13 @@ module.exports = {
       url: '/clients/[slug]',
       'output': true,
       name: 'Clients',
+      image_key: 'image_path',
       schemas: {
         default: {
-          path: 'schemas/clients/default.md',
-          image_key: 'image_path'
+          path: 'schemas/clients/default.md'
+        },
+        internal: {
+          path: 'schemas/clients/internal.md'
         }
       }
     },
