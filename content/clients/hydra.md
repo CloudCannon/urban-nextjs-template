@@ -1,6 +1,6 @@
 ---
 name: Hydra Template
-subtitle: a
+subtitle:
 external_url: https://github.com/CloudCannon/hydra-jekyll-template
 image_path: /images/clients/hydra.png
 ---
