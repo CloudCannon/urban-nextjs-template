@@ -93,10 +93,10 @@ module.exports = {
       'output': true,
       url: '/blog/[slug]',
       name: 'Blog',
+      _enabled_editors: ['visual'],
       add_options: [
         {
-          name: 'Add Post',
-          editor: 'content'
+          name: 'Add Post'
         },
         {
           name: "Add Author",
