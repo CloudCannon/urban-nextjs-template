@@ -4,8 +4,15 @@
 	"description": "Urban is a strong foundation for the web presence of your agency.",
 	"author": "",
 	"author_email": "",
-	"images": [],
-	"_array_structures": {
+	"images": [
+		{
+			"image": "/images/_screenshot.png",
+			"description": "Screenshot for Urban Template",
+			"height": 0,
+			"width": 0
+		}
+	],
+	"_structures": {
 		"images": {
 			"style": "select",
 			"values": [

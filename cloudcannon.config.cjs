@@ -38,7 +38,7 @@ module.exports = {
       url: '/[slug]',
       'output': true,
       name: 'Pages',
-      _icon: 'wysiwyg',
+      icon: 'wysiwyg',
       _enabled_editors: ['visual', 'content']
     },
     'staff-members': {
@@ -68,7 +68,23 @@ module.exports = {
           remove_empty_inputs: true,
           image_size: ''
         }
-      }
+      },
+      sort: {
+        key: 'name'
+      },
+      sort_options: [
+        {
+          key: 'name'
+        },
+        {
+          key: 'name',
+          order: 'desc'
+        },
+        {
+          key: 'position',
+          label: 'Job Title'
+        }
+      ]
     },
     posts: {
       path: 'content/posts',
@@ -95,5 +111,30 @@ module.exports = {
         }
       }
     }
-  }
+  },
+  collection_groups: [
+    {
+      heading: 'Pages',
+      collections: [
+        'webpages'
+      ]
+    },
+    {
+      heading: 'Blogging',
+      collections: [
+        'posts',
+        'drafts',
+        'staff-members'
+      ]
+    },
+    {
+      heading: 'Content',
+      collections: [
+        'clients',
+        'data'
+      ]
+    }
+  ],
 };
+
+
