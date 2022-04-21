@@ -72,6 +72,14 @@ module.exports = {
       'output': true,
       url: '/blog/[slug]',
       name: 'Blog',
+      add_options: [
+        {
+          name: "Add Author",
+          editor: "content",
+          collection: "staff-members",
+          schema: "authors"
+        }
+      ],
       schemas: {
         default: {
           name: 'New Post',
