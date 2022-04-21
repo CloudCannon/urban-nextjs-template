@@ -1,6 +1,6 @@
 ---
-title: Definition of sales
-date: 2016-08-06
+title: Definition of saless
+date: 2016-08-06T00:00:00Z
 categories:
   - sales
 author-staff-member: anna
@@ -35,7 +35,6 @@ Many believe that the focus of selling is on the human agents involved in the ex
 
 Within these three tenets, the following definition of professional selling is offered by the American Society for Training and Development (ASTD):
 
-“The holistic business system required to effectively develop, manage, enable, and execute a mutually beneficial, interpersonal exchange of goods and/or services for equitable value.”
-Team selling is one way to influence sales. Team selling is “a group of people representing the sales department and other functional areas in the firm, such as finance, production, and research and development”. (Spiro) Team selling came about in the 1990s through total quality management (TQM). TQM occurs when companies work to improve their customer satisfaction by constantly improving all of their operations.
+“The holistic business system required to effectively develop, manage, enable, and execute a mutually beneficial, interpersonal exchange of goods and/or services for equitable value.” Team selling is one way to influence sales. Team selling is “a group of people representing the sales department and other functional areas in the firm, such as finance, production, and research and development”. (Spiro) Team selling came about in the 1990s through total quality management (TQM). TQM occurs when companies work to improve their customer satisfaction by constantly improving all of their operations.
 
-[source](https://en.wikipedia.org/wiki/Sales): Wikipedia
+[source](https://en.wikipedia.org/wiki/Sales)\: Wikipedia
