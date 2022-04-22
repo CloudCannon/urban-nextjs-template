@@ -53,6 +53,38 @@ module.exports = {
       schema_key: 'my_schema_definition',
       disable_add_folder: true,
       disable_file_actions: true,
+      add_options: [
+        {
+          name: 'Add Staff',
+          icon: 'person_add',
+          href: 'cloudcannon:explore/content/staff-members/.:extension🆕'
+        },
+        {
+          name: 'Add Staff with variable',
+          icon: 'person_add',
+          href: 'cloudcannon::editor/content/staff-members/.:extension🆕'
+        },
+        {
+          name: 'Add Staff on content new format',
+          icon: 'person_add',
+          href: 'create?collection=staff-members'
+        },
+        {
+          name: 'Add Staff 2',
+          icon: 'person_add',
+          href: 'cloudcannon:explore/:source/:base_path/.:extension🆕'
+        },
+        {
+          name: 'Add Staff with variable',
+          icon: 'person_add',
+          href: 'cloudcannon::editor/:source/:base_path/.:extension🆕'
+        },
+        {
+          name: 'Add Staff on content new format',
+          icon: 'person_add',
+          href: 'create?collection=:base_path'
+        }
+      ],
       schemas: {
         default: {
           icon: 'person',
@@ -107,11 +139,11 @@ module.exports = {
           base_path: '/blog/drafts/'
         },
         {
-          name: "Add Author",
-          editor: "content",
+          name: 'Add Author',
+          editor: 'content',
           icon: 'person',
-          collection: "staff-members",
-          schema: "authors"
+          collection: 'staff-members',
+          schema: 'authors'
         }
       ],
       schemas: {
