@@ -29,9 +29,6 @@ module.exports = {
           path: 'schemas/clients/default.md',
           remove_extra_inputs: false,
           remove_empty_inputs: true
-        },
-        internal: {
-          path: 'schemas/clients/internal.md'
         }
       }
     },
@@ -48,8 +45,7 @@ module.exports = {
       _enabled_editors: ['data'],
       name: 'Staff Members',
       image_size: 'contain',
-      text_key: 'position',
-      subtext_key: 'description',
+      text_key: 'name',
       schema_key: '_my_schema_definition',
       disable_add_folder: true,
       disable_file_actions: true,
@@ -116,8 +112,6 @@ module.exports = {
       ],
       schemas: {
         default: {
-          name: 'New Post',
-          icon: 'article',
           path: 'schemas/posts/default.md'
         }
       }
