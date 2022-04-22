@@ -28,6 +28,7 @@ module.exports = {
       'output': true,
       name: 'Clients',
       image_key: 'image_path',
+      disable_add_folder: true,
       schemas: {
         default: {
           path: 'schemas/clients/default.md',
