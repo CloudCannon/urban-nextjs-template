@@ -1,8 +1,10 @@
 ---
+_schema: default
 name: Hydra Template
-subtitle:
+subtitle: s
 external_url: https://github.com/CloudCannon/hydra-jekyll-template
 image_path: /images/clients/hydra.png
+visible: true
 ---
 
 Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/). Increase the web presence of your brand with this configurable theme.
