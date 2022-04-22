@@ -97,11 +97,19 @@ module.exports = {
       name: 'Blog',
       add_options: [
         {
-          name: 'Add Post'
+          name: 'Read the docs',
+          icon: 'local_library',
+          href: 'https://docs.cloudcannon.com'
+        },
+        {
+          name: 'Add Post',
+          editor: 'content',
+          base_path: '/blog/drafts/'
         },
         {
           name: "Add Author",
           editor: "content",
+          icon: 'person',
           collection: "staff-members",
           schema: "authors"
         }
