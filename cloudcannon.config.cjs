@@ -19,7 +19,8 @@ module.exports = {
   'collections-config': {
     data: { 
       path: 'data',
-      disable_add: true 
+      disable_add: true,
+      disable_add_folder: true
     },
     clients: {
       path: 'content/clients',
