@@ -50,12 +50,12 @@ module.exports = {
       name: 'Staff Members',
       image_size: 'contain',
       text_key: 'name',
+      icon: 'person',
       schema_key: '_my_schema_definition',
       disable_add_folder: true,
       disable_file_actions: true,
       schemas: {
         default: {
-          icon: 'person',
           name: 'Staff',
           path: 'schemas/staff-members/default.md',
           remove_extra_inputs: false,
