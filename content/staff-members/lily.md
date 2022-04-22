@@ -1,5 +1,5 @@
 ---
-my_schema_definition: authors
+_my_schema_definition: authors
 name: Lily
 position: Photographer
 twitter: CloudCannon
