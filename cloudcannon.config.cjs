@@ -20,14 +20,7 @@ module.exports = {
     data: { 
       path: 'data',
       disable_add: true,
-      disable_add_folder: true,
-      add_options: [
-        {
-          name: 'Read the docs',
-          icon: 'local_library',
-          href: 'https://docs.cloudcannon.com'
-        }
-      ],
+      disable_add_folder: true
     },
     clients: {
       path: 'content/clients',
