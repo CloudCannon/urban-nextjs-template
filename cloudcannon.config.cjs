@@ -17,7 +17,10 @@ module.exports = {
     uploads: 'public/uploads'
   },
   'collections-config': {
-    data: { path: 'data' },
+    data: { 
+      path: 'data',
+      disable_add: true 
+    },
     clients: {
       path: 'content/clients',
       url: '/clients/[slug]',
