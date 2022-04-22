@@ -1,5 +1,5 @@
 ---
-my_schema_definition: default
+_my_schema_definition: default
 name: Marie Abbot
 position: Blogger
 image_path: https://unsplash.it/600/503?image=1065&a=.png

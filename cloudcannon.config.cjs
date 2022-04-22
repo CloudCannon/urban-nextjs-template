@@ -50,7 +50,7 @@ module.exports = {
       image_size: 'contain',
       text_key: 'position',
       subtext_key: 'description',
-      schema_key: 'my_schema_definition',
+      schema_key: '_my_schema_definition',
       disable_add_folder: true,
       disable_file_actions: true,
       schemas: {
