@@ -29,13 +29,7 @@ module.exports = {
       name: 'Clients',
       image_key: 'image_path',
       disable_add_folder: true,
-      schemas: {
-        default: {
-          path: 'schemas/clients/default.md',
-          remove_extra_inputs: false,
-          remove_empty_inputs: true
-        }
-      }
+      _enabled_editors: ['source']
     },
     webpages: {
       path: 'content/pages',
