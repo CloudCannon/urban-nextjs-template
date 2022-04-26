@@ -1,12 +1,12 @@
 ---
+_schema: default
 name: Hydra Template
-subtitle: Product marketing template for Jekyll
 external_url: https://github.com/CloudCannon/hydra-jekyll-template
 image_path: /images/clients/hydra.png
+visible: true
 ---
 
-Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
-Increase the web presence of your brand with this configurable theme.
+Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/). Increase the web presence of your brand with this configurable theme.
 
 Hydra was made by [CloudCannon](https://cloudcannon.com/), the Cloud CMS for Jekyll.
 
@@ -37,17 +37,17 @@ Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Ac
 
 Hydra was built with [Jekyll](https://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-Install the dependencies with [Bundler](https://bundler.io/):
+Install the dependencies with [Bundler](https://bundler.io/)\:
 
-~~~bash
+```bash
 $ bundle install
-~~~
+```
 
 Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
-~~~bash
+```bash
 $ bundle exec jekyll serve
-~~~
+```
 
 ## Editing
 
